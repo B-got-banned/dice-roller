@@ -1,7 +1,7 @@
 # Dice Roller 🎲
 
 A simple web-based dice roller app built with HTML, CSS, and JavaScript.  
-Roll the dice (particular number of dice) with a click and get random results every time!
+Roll the dice (your choice of the number of dice) with a click and get random results every time!
 
 ## Features
 
