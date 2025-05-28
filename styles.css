@@ -1,0 +1,55 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;
+}
+
+#diceSpace{
+  text-align: center;
+}
+
+#noOfDice{
+  font-size: 19px;
+  text-align: center;
+  height: 20px;
+}
+
+#diceSubmit{
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(108, 46, 165);
+  padding: 8px;
+  transition: background-color 0.25s;
+  transition: scale 0.25s;
+
+}
+
+#diceSubmit:hover{
+  background-color: rgb(119, 67, 168);
+  scale: 1.1;
+}
+
+#diceSubmit:active{
+  background-color: rgb(136, 107, 162);
+}
+
+#diceResult{
+  margin: 10px;
+}
+#diceImages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#diceImages img{
+  width: 80px;
+  margin: 10px;
+  animation: appear 0.25s ease-in;
+}
+
+@keyframes appear{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
